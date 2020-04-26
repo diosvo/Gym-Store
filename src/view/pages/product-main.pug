@@ -1,0 +1,39 @@
+extends ../layout/_product-main.pug
+
+block title
+    title PRODUCT NAME
+
+block main-content
+    section.main.container
+        div.product-main-container.d-flex
+            div.main-left
+                div.product-img
+                    img(src="../image/whey/main/1.jpg")
+                    div.more-img
+                        ul.d-flex-hor.m-0.p-0.more-img-container
+                            li
+                                img(src="../image/whey/main/5.jpg")
+                            li
+                                img(src="../image/whey/main/2.jpg")
+                            li
+                                img(src="../image/whey/main/3.jpg")
+                            li
+                                img(src="../image/whey/main/4.jpg")
+                            li
+                                img(src="../image/whey/main/6.jpg")
+                            li
+                                img(src="../image/whey/main/7.jpg")
+                            li
+                                img(src="../image/whey/main/8.jpg")
+                            li
+                                img(src="../image/whey/main/1.jpg")
+            div.main-right
+                h2 Naked Whey
+                p.money $26.99
+                p.tax Tax included
+                p.des Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta voluptate fugiat officiis molestiae, minus eum recusandae sint iste, ullam soluta blanditiis quisquam. Dolore eaque illo pariatur nisi ducimus neque voluptatum!
+                select(placeholder="Choose size")
+                    option 5lbs 
+                    option 10lbs 
+                input(type="number" id="quantity" min="1" placeholder="1")
+                p.cart.uppercase.align-center.bold Add to cart

@@ -1,0 +1,44 @@
+.login {
+  font-family: "Montserrat"; }
+  .login h2 {
+    text-align: center; }
+  .login .login-form-container {
+    max-width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+    margin: 0 auto; }
+    .login .login-form-container .login-form div {
+      width: 15%; }
+    .login .login-form-container .login-form label {
+      font-size: 14px;
+      width: 25%;
+      font-weight: bold; }
+    .login .login-form-container .login-form input {
+      display: inline-block;
+      width: 60%;
+      font-family: "Montserrat";
+      margin: 0.25rem 0;
+      padding: 0.5rem 1rem;
+      border: 1px solid rgba(0, 0, 0, 0.1); }
+      .login .login-form-container .login-form input:focus {
+        outline: 2px solid #d90000; }
+  .login .login-func p {
+    font-size: 13px;
+    text-align: center; }
+  .login .login-func button {
+    background-color: #d90000;
+    padding: 0.75rem 3rem !important;
+    border-radius: 20px;
+    font-family: "Montserrat";
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px; }
+    .login .login-func button:hover {
+      transition: 0.3s all ease;
+      background: black;
+      cursor: pointer; }
+  .login .login-func a {
+    margin-top: 1rem;
+    font-size: 15px; }
+    .login .login-func a:hover {
+      opacity: 0.8; }

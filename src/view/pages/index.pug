@@ -1,0 +1,284 @@
+extends ../layout/_homepage.pug
+
+block title
+    title HOME
+
+block main-content
+    div.carousel 
+        div.slide
+            img(src="../image/banner/1.jpg")
+            div.slide-content.d-flex-ver.centered
+                h1.m-0.tracking-in-contract Protein
+                p.align-center.m-0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse autem explicabo, quae fuga ea perferendis!
+                a(href="#").sm.shake-right  See more
+                    
+        div.slide
+            img(src="../image/banner/2.jpg")
+            div.slide-content.d-flex-ver.centered
+                h1.m-0 Anabolics
+                p.align-center.m-0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse autem explicabo, quae fuga ea perferendis!
+                a(href="#").sm  See more
+        div.slide
+            img(src="../image/banner/3.jpg")
+            div.slide-content.d-flex-ver.centered
+                h1.m-0 Vitamins
+                p.align-center.m-0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse autem explicabo, quae fuga ea perferendis!
+                a(href="#").sm  See more
+
+    div.benefit.d-flex-hor.mx-1
+        div.bnf-content.d-flex-ver.my-1
+            img(src="../image/benefit/call.jpg")
+            p.text 24/7 Free Support
+            p.txt-detail.m-0 You'll be speaking with one of our presentatives!
+        div.bnf-content.d-flex-ver.my-1
+            img(src="../image/benefit/ship.jpg")
+            p.text Security Policy
+            p.txt-detail.m-0 All your personal data is portected.
+        div.bnf-content.d-flex-ver.my-1
+            img(src="../image/benefit/money.jpg")
+            p.text Delivery Policy
+            p.txt-detail.m-0 Free delivery over $200
+        div.bnf-content.d-flex-ver.my-1
+            img(src="../image/benefit/service.jpg")
+            p.text Return Policy
+            p.txt-detail.m-0 Not satisfied with your order? Return it in-store.
+
+    div.cate-block.m-0
+        div.img-container.d-flex-hor
+            div.cate.d-flex-ver
+                img(src="../image/banner/4.jpg")
+                div.cate-content.d-flex-ver
+                    h3.m-0 Anabolics.
+                    p.mx-1.py-3.align-center Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, magnam?
+                    a(href="#").sm See more
+            div.cate.d-flex-ver
+                img(src="../image/banner/5.jpg")
+                div.cate-content.d-flex-ver
+                    h3.m-0 Amino Acids
+                    p.mx-1.py-3.align-center Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, magnam?
+                    a(href="#").sm See more
+            div.cate.d-flex-ver
+                img(src="../image/banner/6.jpg")
+                div.cate-content.d-flex-ver
+                    h3.m-0 Protein
+                    p.mx-1.py-3.align-center Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, magnam?
+                    a(href="#").sm See more
+
+    div.new-arrivals
+        div.na-title.uppercase.bold.d-flex-hor New Arrival
+        div.thumbanails-container.d-flex-hor
+            div.thumbnail.my-1  
+                div.product-img.d-flex-ver
+                    img(src="../image/bar/3.jpg" onmouseover="this.src='../image/bar/5.jpg'" onmouseout="this.src='../image/bar/3.jpg'")
+                    span.product-flag New
+                    div.quick-view.fa.fa-eye.d-flex-hor.scale-up-ver-right
+                div.product-des.d-flex-ver
+                    a(href="../html/product-main.html").product-title Nutren Excelent Bar Protein
+                    p.short-des.m-0.align-center Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    p.money.bold $2.99
+                    div.product-items
+                        input(type="color" value="#F4A460")
+                        input(type="color" value="#DC143C")
+                div.product-var.d-flex-ver
+                    select.align-center
+                        option M
+                        option L
+                        option XL
+                    div.quanity-cart.d-flex-hor
+                        input(type="number" id="quantity" min="1" placeholder="1")
+                        div.btn.align-center
+                            i.fa.fa-cart-plus
+                            span.uppercase.bold Add to cart
+
+            div.thumbnail.my-1  
+                div.product-img.d-flex-ver
+                    img(src="../image/bar/10.jpg" onmouseover="this.src='../image/bar/11.jpg'" onmouseout="this.src='../image/bar/10.jpg'")
+                    span.product-flag New
+                    div.quick-view.fa.fa-eye.d-flex-hor.scale-up-ver-right
+                div.product-des.d-flex-ver
+                    a(href="../html/product-main.html").product-title ProMax Bar Protein
+                    p.short-des.m-0.align-center Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    p.money.bold $2.99
+                    div.product-items
+                        input(type="color" value="#F5DEB3")
+                        input(type="color" value="#A0522D")
+                div.product-var.d-flex-ver
+                    select.align-center
+                        option M
+                        option L
+                        option XL
+                    div.quanity-cart.d-flex-hor
+                        input(type="number" id="quantity" min="1" placeholder="1")
+                        div.btn.align-center
+                            i.fa.fa-cart-plus
+                            span.uppercase.bold Add to cart
+
+            div.thumbnail.my-1 
+                div.product-img.d-flex-ver
+                    img(src="../image/whey/1.jpg" onmouseover="this.src='../image/whey/2.png'" onmouseout="this.src='../image/whey/1.jpg'")
+                    span.product-flag New
+                    div.quick-view.fa.fa-eye.d-flex-hor.scale-up-ver-right
+                div.product-des.d-flex-ver
+                    a(href="../html/product-main.html").product-title NutriTech Protein
+                    p.short-des.m-0.align-center Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    p.money.bold $49.99
+                    div.product-items
+                        input(type="color" value="black")
+                div.product-var.d-flex-ver
+                    select.align-center
+                        option 4lbs
+                        option 5lbs
+                        option 10lbs
+                    div.quanity-cart.d-flex-hor
+                        input(type="number" id="quantity" min="1" placeholder="1")
+                        div.btn.align-center
+                            i.fa.fa-cart-plus
+                            span.uppercase.bold Add to cart
+
+            div.thumbnail.my-1  
+                div.product-img.d-flex-ver
+                    img(src="../image/whey/3.png" onmouseover="this.src='../image/whey/4.jpg'" onmouseout="this.src='../image/whey/3.png'")
+                    span.product-flag New
+                    div.quick-view.fa.fa-eye.d-flex-hor.scale-up-ver-right
+                div.product-des.d-flex-ver
+                    a(href="../html/product-main.html").product-title Nitro Tech Whey Protein
+                    p.short-des.m-0.align-center Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    p.money.bold $54.99
+                    div.product-items
+                        input(type="color" value="#F4A460")
+                        input(type="color" value="#DC143C")
+                div.product-var.d-flex-ver
+                    select.align-center
+                        option 4lbs
+                        option 5lbs
+                        option 10lbs
+                    div.quanity-cart.d-flex-hor
+                        input(type="number" id="quantity" min="1" placeholder="1")
+                        div.btn.align-center
+                            i.fa.fa-cart-plus
+                            span.uppercase.bold Add to cart
+
+            div.thumbnail.my-1  
+                div.product-img.d-flex-ver
+                    img(src="../image/bar/7.jpg" onmouseover="this.src='../image/bar/6.jpg'" onmouseout="this.src='../image/bar/7.jpg'")
+                    span.product-flag New
+                    div.quick-view.fa.fa-eye.d-flex-hor.scale-up-ver-right
+                div.product-des.d-flex-ver
+                    a(href="../html/product-main.html").product-title Maximum Bar Protein 40%
+                    p.short-des.m-0.align-center Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    p.money.bold $2.99
+                    div.product-items
+                        input(type="color" value="#D2691E")
+                        input(type="color" value="#F4A460")
+                        input(type="color" value="#DC143C")
+                div.product-var.d-flex-ver
+                    select.align-center
+                        option M
+                        option L
+                        option XL
+                    div.quanity-cart.d-flex-hor
+                        input(type="number" id="quantity" min="1" placeholder="1")
+                        div.btn.align-center
+                            i.fa.fa-cart-plus
+                            span.uppercase.bold Add to cart
+
+            div.thumbnail.my-1 
+                div.product-img.d-flex-ver
+                    img(src="../image/bar/1.png" onmouseover="this.src='../image/bar/2.jpg'" onmouseout="this.src='../image/bar/1.png'")
+                    span.product-flag New
+                    div.quick-view.fa.fa-eye.d-flex-hor.scale-up-ver-right
+                div.product-des.d-flex-ver
+                    a(href="../html/product-main.html").product-title MusclePharm Bar Protein
+                    p.short-des.m-0.align-center Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    p.money.bold $9.19
+                    div.product-items
+                        input(type="color" value="#800000")
+                        input(type="color" value="black")
+                div.product-var.d-flex-ver
+                    select.align-center
+                        option M
+                        option L
+                        option XL
+                    div.quanity-cart.d-flex-hor
+                        input(type="number" id="quantity" min="1" placeholder="1")
+                        div.btn.align-center
+                            i.fa.fa-cart-plus
+                            span.uppercase.bold Add to cart
+
+            div.thumbnail.my-1  
+                div.product-img.d-flex-ver
+                    img(src="../image/createin/6.png" onmouseover="this.src='../image/createin/5.jpg'" onmouseout="this.src='../image/createin/6.png'")
+                    span.product-flag New   
+                    div.quick-view.fa.fa-eye.d-flex-hor.scale-up-ver-right
+                div.product-des.d-flex-ver
+                    a(href="../html/product-main.html").product-title Createin Powder
+                    p.short-des.m-0.align-center Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    p.money.bold $29.99
+                    div.product-items
+                        input(type="color" value="white")
+                div.product-var.d-flex-ver
+                    select.align-center
+                        option 57sers
+                        option 88sers
+                    div.quanity-cart.d-flex-hor
+                        input(type="number" id="quantity" min="1" placeholder="1")
+                        div.btn.align-center
+                            i.fa.fa-cart-plus
+                            span.uppercase.bold Add to cart
+
+            div.thumbnail.my-1  
+                div.product-img.d-flex-ver
+                    img(src="../image/bcaa/1.jpg" onmouseover="this.src='../image/bcaa/2.png'" onmouseout="this.src='../image/bcaa/1.jpg'")
+                    span.product-flag New
+                    div.quick-view.fa.fa-eye.d-flex-hor.scale-up-ver-right
+                div.product-des.d-flex-ver
+                    a(href="../html/product-main.html").product-title Xtend BCAA
+                    p.short-des.m-0.align-center Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    p.money.bold $22.99
+                    div.product-items
+                        input(type="color" value="White")
+                div.product-var.d-flex-ver
+                    select.align-center
+                        option 30sers
+                        option 60sers
+                    div.quanity-cart.d-flex-hor
+                        input(type="number" id="quantity" min="1" placeholder="1")
+                        div.btn.align-center
+                            i.fa.fa-cart-plus
+                            span.uppercase.bold Add to cart
+
+    div.cate-banner
+        div.cate-banner-block 
+            div.cate-banner-content-l.d-flex-hor
+                div.cate-content.d-flex-ver.py-2
+                    h3.m-0 Amino Acids & BCAA
+                    p.align-center.mx-1.py-2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error animi quam accusamus.
+                    div.line
+                    a(href="#").sm  See more
+                div.img
+                    img(src="../image/banner/8.jpg")
+            div.cate-banner-content-r.d-flex-hor
+                div.img
+                    img(src="../image/banner/9.jpg")
+                div.cate-content.d-flex-ver.py-2
+                    h3.m-0 Elite Protein Bar
+                    p.align-center.mx-1.py-2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error animi quam accusamus.
+                    div.line
+                    a(href="#").sm  See more
+
+    div.blog
+        h4.uppercase.bold.d-flex-hor.m-0 Our Blog
+        div.blog-container.d-flex-hor.p-2
+            div.blog-content.d-flex-ver.my-1
+                h5.m-0.uppercase.bold what are the benefit of proteins?
+                p.align-center.mx-1.py-3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quae incidunt voluptatem et dolor laborum ...
+                div.img 
+                    img(src="../image/banner/10.jpg")
+                a(href="#").sm.mx-1  Read more
+
+            div.blog-content.d-flex-ver.my-1
+                h5.m-0.uppercase.bold Banana Cake Smoothie
+                p.align-center.mx-1.py-3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quae incidunt voluptatem et dolor laborum ...
+                div.img 
+                    img(src="../image/banner/11.png")
+                a(href="#").sm.mx-1  Read more

@@ -1,0 +1,41 @@
+extends ../layout/_register.pug
+
+block title
+    title REGISTER
+
+block main-content
+    #register 
+        
+        h2 Create an account
+        div.register-form-container.wow.slideInLeft
+            div.social-tile.d-flex
+                label.title.bold.m-0 Social Title
+                input(type="radio")
+                label Mrs.
+                input(type="radio")
+                label Mr.
+            div.register-form.d-flex-hor 
+                label First Name
+                input(class="form-control" type="email")
+                div
+            div.register-form.d-flex-hor 
+                label Last Name
+                input(class="form-control" type="email")
+                div
+            div.register-form.d-flex-hor 
+                label Email
+                input(class="form-control" type="email")
+                div
+            div.register-form.d-flex-hor 
+                label Password
+                input(class="form-control" type="password")
+                div
+            div.register-form.d-flex-hor 
+                label Birthday
+                input(class="form-control" type="text" placeholder="MM/DD/YY")
+                div
+            div.register-form.align-center
+                button.btn.uppercase.bold Save
+                p
+                    a(href="../html/login.html") Already have an account? Click here
+                    

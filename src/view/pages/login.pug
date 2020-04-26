@@ -1,0 +1,21 @@
+extends ../layout/_login.pug
+
+block title
+    title LOG IN
+
+block main-content
+    div.login
+        h2 Log in to your account
+        div.login-form-container.wow.slideInLeft
+            div.login-form.d-flex-hor 
+                label Email
+                input(class="form-control" type="email")
+                div
+            div.login-form.d-flex-hor 
+                label Password
+                input(class="form-control" type="password")
+                div
+            div.login-func.d-flex-ver
+                p Forgot your password?
+                button.btn.uppercase.bold Sign in
+                a(href="../html/register.html") No account? Create one here

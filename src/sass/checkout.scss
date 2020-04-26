@@ -1,0 +1,129 @@
+@import "../sass/variable";
+@import "../sass/footer";
+
+section#checkout {
+    margin-top   : 2rem;
+    margin-bottom: 3rem;
+}
+
+.cart {
+    .cart-container {
+        border: 1px solid rgba(0, 0, 0, .1);
+
+        .cart-item {
+            display    : flex;
+            align-items: center;
+
+            .product-line-grid {
+                width: 30%;
+
+                img {
+                    width: 50%;
+
+                    padding: 1rem;
+                }
+            }
+
+            .product-line-body {
+                display       : flex;
+                flex-direction: column;
+                width         : 25%;
+
+                a.label {
+                    font-size: 14px;
+                }
+
+                .price {
+                    margin   : 0.25rem;
+                    font-size: 16px;
+                }
+
+                .product-line-infor {
+                    margin: 0.25rem;
+
+                    span.label {
+                        font-size: 13px;
+                    }
+
+                    span.value {
+                        margin-left: 0.25rem;
+                    }
+                }
+            }
+
+            .product-quanity {
+                input {
+                    font-family: 'Montserrat';
+
+                    width: 20%;
+
+                    margin-left: 5px;
+                    padding    : 0.5rem 0 0.5rem 0.5rem;
+                }
+            }
+
+            .product-quanity,
+            .product-money,
+            .remove {
+                width: 15%;
+            }
+
+            .remove {
+                img {
+                    padding: 1rem;
+                    width  : 10%;
+
+                    &:hover {
+                        cursor : pointer;
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+    }
+
+    .ctn-shopping {
+        margin: 0.5rem 0;
+
+        a {
+            font-size  : 14px;
+            font-weight: bold;
+        }
+    }
+}
+
+.cart-block {
+    border : 1px solid rgba(0, 0, 0, .1);
+    padding: 1.5rem 4rem;
+
+    font-size  : 14px;
+    font-weight: bold;
+
+    .cart-summary-line {
+        display        : flex;
+        justify-content: space-between;
+        align-items    : baseline;
+
+        span.value {
+            margin: 0.5rem;
+        }
+    }
+}
+
+.code {
+    margin: 0.75rem 0;
+}
+
+.btn-checkout {
+    margin: 1rem 0;
+
+    a {
+        padding: 0.75rem 3rem;
+
+        background-color: $main_color;
+        border-radius   : 30px;
+
+        font-size: 14px;
+        color    : white;
+    }
+}

@@ -1,0 +1,47 @@
+#register h2 {
+  text-align: center; }
+
+#register .register-form-container {
+  max-width: 400px;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.1); }
+  #register .register-form-container .social-tile {
+    font-size: 14px;
+    align-items: center;
+    margin-bottom: 0.5rem; }
+    #register .register-form-container .social-tile .title {
+      width: 25%; }
+    #register .register-form-container .social-tile label {
+      margin: 0 0.25rem; }
+  #register .register-form-container .register-form div {
+    width: 15%; }
+  #register .register-form-container .register-form label {
+    font-size: 14px;
+    width: 25%;
+    font-weight: bold; }
+  #register .register-form-container .register-form input {
+    display: inline-block;
+    width: 60%;
+    font-family: "Montserrat";
+    margin: 0.25rem 0;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1); }
+    #register .register-form-container .register-form input:focus {
+      outline: 2px solid #d90000; }
+  #register .register-form-container .register-form button {
+    padding: 0.75rem 3rem !important;
+    margin-top: 0.75rem;
+    background-color: #d90000;
+    border-radius: 20px;
+    font-family: "Montserrat";
+    color: white;
+    letter-spacing: 1px;
+    font-size: 13px; }
+    #register .register-form-container .register-form button:hover {
+      transition: 0.3s all ease;
+      background: black;
+      cursor: pointer; }
+  #register .register-form-container .register-form a {
+    font-size: 14px;
+    margin-bottom: none; }

@@ -1,0 +1,60 @@
+@import '../sass/variable';
+@import "../sass/product";
+@import "../sass/copyright";
+
+.whey-protein {
+    margin-top: 2rem;
+
+    .left {
+        width: 30%;
+
+        ul {
+            li {
+                padding: 0.5rem 1rem;
+            }
+
+            li:nth-child(n+2) {
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .right {
+        width: 70%;
+
+        .right-infor {
+            border: 0.5px solid #dddddd;
+
+            .right-content {
+                h4 {
+                    padding: 0.5rem 1rem;
+                }
+
+                p {
+                    padding  : 0 1rem;
+                    font-size: 14px;
+                }
+            }
+
+            .right-img {
+                width  : 90%;
+                padding: 1rem 0;
+
+                img {
+                    width      : 100%;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+a {
+    color: black;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}

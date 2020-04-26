@@ -1,0 +1,48 @@
+extends ../layout/_checkout.pug
+
+block title
+    title CHECK OUT
+
+block main-content
+    section#checkout.container
+        h5.uppercase shopping cart 
+        div.cart 
+            div.cart-container 
+                    div.cart-item
+                        div.product-line-grid 
+                            img(src="../image/whey/2.png", alt="")
+                        div.product-line-body
+                            a.label.bold NutriTech Whey Protein 
+                            span.price $26.00
+                            div.product-line-infor
+                                span.label.bold Size:
+                                span.value S
+                            div.product-line-infor 
+                                span.label.bold Color:
+                                span.value Grey
+                        div.product-quanity
+                            input(type="number" id="quantity" min="1" placeholder="1")
+                        div.product-money.bold $26.00
+                        div.remove
+                            img(src="../image/banner/delete.png", alt="")
+            div.ctn-shopping
+                a(href="../html/whey.html") < Continue shopping
+        div.cart-block
+            .cart-summary-line 
+                span.label 1item 
+                span.value $26.00
+            .cart-summary-line 
+                span.label Shipping 
+                span.value $6.00
+        div.code.d-flex-ver 
+            a(href="#") Have a promote code?
+        div.cart-block
+            .cart-summary-line 
+                span.label Total (tax excl)
+                span.value $32.00
+            .cart-summary-line 
+                span.label Taxes 
+                span.value $0.00 
+        div.btn-checkout.d-flex-ver 
+            a(href="#").bold.uppercase Proceed to Checkout
+            

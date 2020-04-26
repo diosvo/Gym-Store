@@ -1,0 +1,160 @@
+body {
+    margin     : 0;
+    padding    : 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin: 0 4rem;
+}
+/* === BACKGROUND === */
+
+.centered {
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-black-trans {
+    background-color: rgba($color: #000000, $alpha: 0.87);
+}
+
+/* === SPACING === */
+
+.m-0 {
+    margin: 0;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+
+.m-2 {
+    margin: 2rem;
+}
+
+.mx-1 {
+    margin: 1rem 0;
+}
+
+.mx-2 {
+    margin: 2rem 0;
+}
+
+.mx-3 {
+    margin: 3rem 0;
+}
+
+.my-1 {
+    margin: 0 1rem;
+}
+
+.my-2 {
+    margin: 0 2rem;
+}
+
+.p-0 {
+    padding: 0;
+}
+.p-2 {
+    padding: 2rem;
+}
+.p-3 {
+    padding: 3rem;
+}
+.py-2 {
+    padding: 0 2rem;
+}
+
+.py-3 {
+    padding: 0 3rem;
+}
+
+/* ==== TEXT ==== */
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    // color: black;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* === POSITION === */
+
+.align-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex-hor {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.d-flex-ver {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* === FUNCTION === */
+.tooltip {
+    position: relative;
+
+    .tooltiptext {
+        position   : absolute;
+        visibility : hidden;
+        font-family: 'Montserrat';
+        width      : 5rem;
+        color      : #fff;
+        text-align : left;
+        font-size  : 10px;
+        z-index    : 1;
+        top        : 2rem;
+        left       : 10px;
+    }
+
+    &:hover .tooltiptext {
+        visibility: visible;
+    }
+}
+
+.btn {
+    border: none;
+    padding: .75rem 4rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import "../sass/homepage.scss";
+@import "../sass/protein.scss";
+@import "../sass/bars.scss";
+@import "../sass/login.scss";
+@import "../sass/register.scss";
+@import "../sass/checkout.scss";
+@import "../sass/product-main.scss";

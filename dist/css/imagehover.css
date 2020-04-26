@@ -1,0 +1,30 @@
+[class^='imghvr-fade'] figcaption, [class*=' imghvr-fade'] figcaption {
+  opacity: 0; }
+
+[class^='imghvr-fade']:hover figcaption, [class*=' imghvr-fade']:hover figcaption {
+  opacity: 1; }
+
+[class^='imghvr-fade']:hover > img, [class^='imghvr-fade']:hover figcaption, [class*=' imghvr-fade']:hover > img, [class*=' imghvr-fade']:hover figcaption {
+  transform: translate(0, 0); }
+
+/* imghvr-fade
+   ----------------------------- */
+/* imghvr-fade-in-up
+   ----------------------------- */
+.imghvr-fade-in-up figcaption {
+  transform: translate(0, 15%); }
+
+/* imghvr-fade-in-down
+   ----------------------------- */
+.imghvr-fade-in-down figcaption {
+  transform: translate(0, -15%); }
+
+/* imghvr-fade-in-left
+   ----------------------------- */
+.imghvr-fade-in-left figcaption {
+  transform: translate(-15%, 0); }
+
+/* imghvr-fade-in-right
+   ----------------------------- */
+.imghvr-fade-in-right figcaption {
+  transform: translate(15%, 0); }

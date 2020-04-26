@@ -1,0 +1,258 @@
+extends ../layout/_bar.pug
+
+block title
+    title BARS
+
+block main-content
+    div(class="bar container d-flex")
+        div(class="bar-left")
+            ul.m-0.p-0
+                li 
+                    a(href="#" class="bold") Bars
+                li 
+                    a(href="#") Energy Bars
+                li 
+                    a(href="#") Meal Replacement Bars
+                li 
+                    a(href="#") Most Natural Bars 
+            div.filter-by.m-0
+                h3.uppercase Filter by 
+                h4 Categories 
+                div.pretty.default.p-fill
+                    input(type="checkbox")
+                    div.state
+                        label Energy Bar
+                div.pretty.default.p-fill
+                    input(type="checkbox")
+                    div.state
+                        label Meal Replacement Bar
+                div.pretty.default.p-fill
+                    input(type="checkbox")
+                    div.state
+                        label Most Natural Bar
+
+            div.size.m-0
+                h4 Size 
+                div.pretty.default.p-fill
+                    input(type="checkbox")
+                    div.state
+                        label S
+                div.pretty.default.p-fill
+                    input(type="checkbox")
+                    div.state
+                        label M
+                div.pretty.default.p-fill
+                    input(type="checkbox")
+                    div.state
+                        label L
+
+
+        div(class="bar-right")
+            section#protein-product
+                div.total-pro
+                    p There are 18 products
+                div.products
+                    .protein-container.wow.slideInUp(data-wow-delay="1s")
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/2.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold MP Combat
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/3.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold Excellent
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/4.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold Excelent
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/5.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold Excelent
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/6.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold 40% Protein 
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/7.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold 40% Protein 
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/8.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold 40% Protein
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/9.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold 40% Protein
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/10.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold Promax
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/11.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold Promax
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/2.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold MP Combat
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/3.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold Excelent
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/4.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold Excelent
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/5.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold Excelent
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/6.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold Excelent
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/7.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold 40% Protein Bar
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/8.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold 40% Protein Bar
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                        .thumbnail-product
+                            .product-img
+                                img(src="../image/bar/9.jpg", alt="")
+                            a(href="../html/product-main.html").product-name.bold 40% Protein Bar
+                            p.product-price.bold $14.99 
+                            select(placeholder="Choose size")
+                                option S 
+                                option M 
+                            .prodcut-quanity-cart.d-flex-hor    
+                                input(type="number" id="quantity" min="1" placeholder="1")
+                                p.uppercase.bold.align-center Add to cart
+                    div.pagination.d-flex-hor
+                        .prev.disable Prev
+                        .page Page
+                            span.page 
+                        .next.disable Next

@@ -1,0 +1,18 @@
+.brand {
+    .brand-container {
+        margin: 1rem 4.5rem;
+        div.img-container {
+            margin: 0 0.5rem;
+            img {
+                width: 70%;
+                opacity: 0.3;
+            }
+            &:hover {
+                img {
+                    cursor: pointer;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
